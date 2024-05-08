@@ -1,11 +1,11 @@
 require("dotenv").config();
 
 module.exports = {
-    token: process.env.TOKEN || "MTIzNzYzMzE4MjYwNjY5MjM3Mw.GB-_oz.S0VGxR-2Q5Wdgduf9dFIfPzwywsYrtRkFTyXJc", // <==== PASTE YOU TOKEN
+    token: process.env.TOKEN || "", // <==== PASTE YOU TOKEN
     prefix: process.env.PREFIX || "c?", // <==== SET YOU PRERIX BOT [ OWNER COMMANDS ]
     color: process.env.EMBED_COLOR || "#B072FF", // <==== YOU EMBEDED HEX COLOR
-    owner: process.env.OWNER_ID || "1183298596662153276", // <==== BOTS OWNER ID
-    guildLogs: process.env.GUILD_LOGS || "1202733779345481900", // <==== YOUR SERVER JOIN LEFT LOGS CHANNEL ID
+    owner: process.env.OWNER_ID || "", // <==== BOTS OWNER ID
+    guildLogs: process.env.GUILD_LOGS || "", // <==== YOUR SERVER JOIN LEFT LOGS CHANNEL ID
     leaveTimeout: process.env.LEAVE_TIMEOUT || "60000", // <==== SET LEAVE TIMEOUT WHEN BOT WAS ALONE || 1000 = 1sec
     disableYouTube: parseBoolean(process.env.DISABLE_YOUTUBE || "false"), // <==== SET "TRUE OR FALSE" | ENABLE/DISABLE YOUTUBE FEATURES. DISABLING THIS WILL MAKE "AUTOPLAY" COMMANDS USELESS!!!
 
@@ -13,8 +13,8 @@ module.exports = {
     playSource: process.env.PLAY_SOURCE || "ytsearch", // <==== SET YOUR PLAY SOURCE || "ytsearch","ytmsearch","scsearch"
     poruOptions: {
         defaultPlatform: process.env.DEFAULT_SOURCE || "ytsearch", // <==== SET DEFAULT SOURCE || "ytsearch","ytmsearch","scsearch"
-        clientID: process.env.SPOTIFY_ID || "073c54cccbd942139c71daaa4bd2431c", // <==== SPOTIFY CLIENT ID
-        clientSecret: process.env.SPOTIFY_SECRET || "19dace8f71fa41fb8bf6846139848557", // <==== SPOTIFY CLIENT SECRET
+        clientID: process.env.SPOTIFY_ID || "", // <==== SPOTIFY CLIENT ID
+        clientSecret: process.env.SPOTIFY_SECRET || "", // <==== SPOTIFY CLIENT SECRET
         reconnectTries: 5, // <==== TOTAL ATTEMPS TO TRY IF RECONNECT FAILED. YOU CAN CHANGE IT TO "Infinity" FOR UNLIMITED ATTEMPS.
         playlistLimit: 2, // <==== 1 = 100 TRACKS
         albumLimit: 2, // <==== 1 = 50 TRACKS
