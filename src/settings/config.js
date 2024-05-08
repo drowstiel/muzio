@@ -1,12 +1,12 @@
 require("dotenv").config();
 
 module.exports = {
-    token: process.env.TOKEN || "BOTTOKEN", // <==== PASTE YOU TOKEN
-    prefix: process.env.PREFIX || "f?", // <==== SET YOU PRERIX BOT [ OWNER COMMANDS ]
-    color: process.env.EMBED_COLOR || "#c50632", // <==== YOU EMBEDED HEX COLOR
-    owner: process.env.OWNER_ID || "900708551805268019", // <==== BOTS OWNER ID
-    guildLogs: process.env.GUILD_LOGS || "000000000000000", // <==== YOUR SERVER JOIN LEFT LOGS CHANNEL ID
-    leaveTimeout: process.env.LEAVE_TIMEOUT || "20000", // <==== SET LEAVE TIMEOUT WHEN BOT WAS ALONE || 1000 = 1sec
+    token: process.env.TOKEN || "MTIzNzYzMzE4MjYwNjY5MjM3Mw.GB-_oz.S0VGxR-2Q5Wdgduf9dFIfPzwywsYrtRkFTyXJc", // <==== PASTE YOU TOKEN
+    prefix: process.env.PREFIX || "c?", // <==== SET YOU PRERIX BOT [ OWNER COMMANDS ]
+    color: process.env.EMBED_COLOR || "#B072FF", // <==== YOU EMBEDED HEX COLOR
+    owner: process.env.OWNER_ID || "1183298596662153276", // <==== BOTS OWNER ID
+    guildLogs: process.env.GUILD_LOGS || "1202733779345481900", // <==== YOUR SERVER JOIN LEFT LOGS CHANNEL ID
+    leaveTimeout: process.env.LEAVE_TIMEOUT || "60000", // <==== SET LEAVE TIMEOUT WHEN BOT WAS ALONE || 1000 = 1sec
     disableYouTube: parseBoolean(process.env.DISABLE_YOUTUBE || "false"), // <==== SET "TRUE OR FALSE" | ENABLE/DISABLE YOUTUBE FEATURES. DISABLING THIS WILL MAKE "AUTOPLAY" COMMANDS USELESS!!!
 
     // ⬇⬇⬇ PORU DETAILS
