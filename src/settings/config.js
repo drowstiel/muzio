@@ -13,8 +13,8 @@ module.exports = {
     playSource: process.env.PLAY_SOURCE || "ytsearch", // <==== SET YOUR PLAY SOURCE || "ytsearch","ytmsearch","scsearch"
     poruOptions: {
         defaultPlatform: process.env.DEFAULT_SOURCE || "ytsearch", // <==== SET DEFAULT SOURCE || "ytsearch","ytmsearch","scsearch"
-        clientID: process.env.SPOTIFY_ID || "YourSpotifyID", // <==== SPOTIFY CLIENT ID
-        clientSecret: process.env.SPOTIFY_SECRET || "YourSpotifySecret", // <==== SPOTIFY CLIENT SECRET
+        clientID: process.env.SPOTIFY_ID || "073c54cccbd942139c71daaa4bd2431c", // <==== SPOTIFY CLIENT ID
+        clientSecret: process.env.SPOTIFY_SECRET || "19dace8f71fa41fb8bf6846139848557", // <==== SPOTIFY CLIENT SECRET
         reconnectTries: 5, // <==== TOTAL ATTEMPS TO TRY IF RECONNECT FAILED. YOU CAN CHANGE IT TO "Infinity" FOR UNLIMITED ATTEMPS.
         playlistLimit: 2, // <==== 1 = 100 TRACKS
         albumLimit: 2, // <==== 1 = 50 TRACKS
@@ -24,9 +24,9 @@ module.exports = {
     nodes: [
         {
             name: process.env.NODE_NAME1 || "Node 1", // lavalink node name (anything you want)
-            host: process.env.NODE_HOST1 || "lavalink.mlserv.xyz", // <==== LAVALINK NAME HOST
-            port: parseInt(process.env.NODE_PORT1 || "32669"), // <==== LAVALINK PORT
-            password: process.env.NODE_PASSWORD1 || "dsc.gg/sciencegear", // <==== PASSWORD/AUTH
+            host: process.env.NODE_HOST1 || "212.192.29.91", // <==== LAVALINK NAME HOST
+            port: parseInt(process.env.NODE_PORT1 || "25529"), // <==== LAVALINK PORT
+            password: process.env.NODE_PASSWORD1 || "reedrouxv4lavalink", // <==== PASSWORD/AUTH
             secure: parseBoolean(process.env.NODE_SECURE1 || "false"), // <==== LAVALINK SECURE "true/false"
             regions: process.env.NODE_REGIONS1 || ["singapore"], // <==== AVAILABLE LAVALINK REGIONS [ "singapore","indonesian","japan"," ]
         },
@@ -41,7 +41,7 @@ module.exports = {
     ],
 
     // ⬇⬇⬇ LINK BOTS DETAILS
-    mongoUri: process.env.MONGO_URI || "mongodb+srv://YourMongoURI", // <==== YOUR MONGODB LINK
+    mongoUri: process.env.MONGO_URI || "mongodb+srv://drowstiel:nETmcS0rM1oYmwE4@cluster0.nmgvne2.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0", // <==== YOUR MONGODB LINK
     supportUrl: process.env.SUPPORT_URL || "https://discord.gg/TjtXnYD9SP", // <==== YOUR SUPPORT SERVER LINK
     voteUrl: process.env.VOTE_URL || "https://www.gearhost.my.id/", // <==== YOUR VOTE URL
     inviteUrl: process.env.INVITE_URL || "https://discord.com/api/oauth2/authorize?client_id=1122883732303511583&permissions=8&scope=bot+applications.commands", // <==== YOUR BOT INVITE LINK
